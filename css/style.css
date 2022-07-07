@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
 
-/* Light Theme Variables */
 :root {
   /* Colors */
   --text-color: #fff;
@@ -79,15 +78,6 @@ a {
 img {
   max-width: 100%;
   height: auto;
-}
-
-/* Dark Theme Variables */
-body.dark-theme {
-  --title-color: #f2f2f2;
-  --text-color: #bfbfbf;
-  --container-color: #212121;
-  --container-color-alt: #181616;
-  --body-color: #2b2b2b;
 }
 
 /* About Section Styles */

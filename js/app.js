@@ -60,3 +60,13 @@ modalBtns.forEach((btn) => {
     }
   })
 })
+
+
+modal.addEventListener('click', (e) => {
+  const classList = e.target.classList
+  if(classList.contains('modal__img') || classList.contains('modal__caption') || classList.contains('modal__controls') || classList.contains('modal__control')) {
+    return
+  }
+
+  modal.style.display = 'none'
+})
